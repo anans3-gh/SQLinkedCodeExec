@@ -1,10 +1,3 @@
-﻿// This tools allows us to perform some basic enumeration on SQL servers
-// An execute commands on the backend OS as well
-// We can supply user credentials or use the access token of the logged on user
-// Credits to the OSEP course for the knowledge and understanding of the code
-// and chvancooten ; his repo was super helpful https://github.com/Pal1Sec/OSEP-Code-Snippets/tree/main/MSSQL
-// and was used as a template for this
-
 
 using System;
 using System.Data.SqlClient;
