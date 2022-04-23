@@ -1,5 +1,8 @@
 # SQLinkedCodeExec
 
+![image](https://user-images.githubusercontent.com/57995347/164911965-bc2c290e-f2ad-446b-a030-a3fb2910f52e.png)
+
+
 This is an Offensive C# Tool that performs the following:
 - basic enumeration on MSSQL server(s)
 - execute commands on the backend OS hosting the MSSQL server(s)
@@ -69,4 +72,3 @@ SQLinkedCodeExec.exe /t dc01 /user someguy /pass somepass /syscreds true /lnk tr
 # Credits
 - Heavily inspired by "[chvancooten](https://github.com/chvancooten/OSEP-Code-Snippets)" 
 - Invaluable knowledge from the "[OSEP Course](https://www.offensive-security.com/pen300-osep/)"
-- Great resource from "[Microsoft](https://docs.microsoft.com/en-us/dotnet/api/system.security.principal.windowsidentity.impersonate?view=netframework-4.8)"
