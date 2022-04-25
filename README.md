@@ -70,5 +70,4 @@ SQLinkedCodeExec.exe /t dc01 /user someguy /pass somepass /syscreds true /lnk tr
 
 
 # Credits
-- Heavily inspired by "[chvancooten](https://github.com/chvancooten/OSEP-Code-Snippets)" 
-- Invaluable knowledge from the "[OSEP Course](https://www.offensive-security.com/pen300-osep/)"
+- Heavily inspired by "[chvancooten's github Code Snippets](https://github.com/chvancooten/OSEP-Code-Snippets)" 
