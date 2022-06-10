@@ -38,7 +38,7 @@ Usage:
 SQLinkedCodeExec.exe /t <target> /user <username>  /pass <password>  <command-to-run>
 
 Usage: Examples:"
-SQLinkedCodeExec.exe /?  - show's this help menu \n"
+SQLinkedCodeExec.exe /?  - show's this help menu"
 
 //Authenticate to target MSSQL with username and password"
 SQLinkedCodeExec.exe /t <target name or IP> /user <username> /pass <password"
@@ -47,7 +47,7 @@ SQLinkedCodeExec.exe /t <target name or IP> /user <username> /pass <password"
 SQLinkedCodeExec.exe /t <target name or IP> /user <username> /pass <password> /syscreds true"
 
 //Execute Code on target MSSQL server "
-SQLinkedCodeExec.exe /t <target name or IP> /user <username> /pass <password> /localexec true /codexec < Whatever - command - goes - here > "
+SQLinkedCodeExec.exe /t <target name or IP> /user <username> /pass <password> /localexec true /codexec < Whatever - command - goes - here >"
 
 //Check if target MSSQL server has any server links"
 SQLinkedCodeExec.exe /t <target name or IP>  /syscreds true /lnk true"
