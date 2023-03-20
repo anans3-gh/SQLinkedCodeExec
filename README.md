@@ -68,6 +68,10 @@ SQLinkedCodeExec.exe /t <target name or IP> /syscreds true  /lnkedt appsrv01 /ln
 SQLinkedCodeExec.exe /t dc01 /user someguy /pass somepass /syscreds true /lnk true  /link2exec true /lnkedt appsrv01 /lnkedtt dc01 /codexec <powershell - enc....>"
 ```
 
+# YouTube Video
+Below is a link to see the tool in action on my YouTube channel
+https://github.com/anans3-gh/SQLinkedCodeExec
+
 
 # Credits
 - Heavily inspired by and leveraged code from "[chvancooten's Code Snippets](https://github.com/chvancooten/OSEP-Code-Snippets)" 
