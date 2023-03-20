@@ -71,7 +71,7 @@ SQLinkedCodeExec.exe /t dc01 /user someguy /pass somepass /syscreds true /lnk tr
 # YouTube Video
 Below is a link to see the tool in action on my YouTube channel
 
-https://github.com/anans3-gh/SQLinkedCodeExec
+https://youtu.be/OHKPIPAtBmE
 
 
 # Credits
